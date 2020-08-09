@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE17DAD624E07ECA006F69D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17DAD524E07ECA006F69D6 /* AppDelegate.swift */; };
+		BE17DAD824E07ECA006F69D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17DAD724E07ECA006F69D6 /* SceneDelegate.swift */; };
+		BE17DADA24E07ECA006F69D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17DAD924E07ECA006F69D6 /* ContentView.swift */; };
+		BE17DADC24E07ECB006F69D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17DADB24E07ECB006F69D6 /* Assets.xcassets */; };
+		BE17DADF24E07ECB006F69D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17DADE24E07ECB006F69D6 /* Preview Assets.xcassets */; };
+		BE17DAE224E07ECB006F69D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE17DAD224E07ECA006F69D6 /* TrackoveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackoveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE17DAD524E07ECA006F69D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE17DAD724E07ECA006F69D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE17DAD924E07ECA006F69D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE17DADB24E07ECB006F69D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE17DADE24E07ECB006F69D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE17DAE124E07ECB006F69D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE17DAE324E07ECB006F69D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE17DACF24E07ECA006F69D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE17DAC924E07ECA006F69D6 = {
+			isa = PBXGroup;
+			children = (
+				BE17DAD424E07ECA006F69D6 /* TrackoveryApp */,
+				BE17DAD324E07ECA006F69D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE17DAD324E07ECA006F69D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE17DAD224E07ECA006F69D6 /* TrackoveryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE17DAD424E07ECA006F69D6 /* TrackoveryApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE17DAD524E07ECA006F69D6 /* AppDelegate.swift */,
+				BE17DAD724E07ECA006F69D6 /* SceneDelegate.swift */,
+				BE17DAD924E07ECA006F69D6 /* ContentView.swift */,
+				BE17DADB24E07ECB006F69D6 /* Assets.xcassets */,
+				BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */,
+				BE17DAE324E07ECB006F69D6 /* Info.plist */,
+				BE17DADD24E07ECB006F69D6 /* Preview Content */,
+			);
+			path = TrackoveryApp;
+			sourceTree = "<group>";
+		};
+		BE17DADD24E07ECB006F69D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE17DADE24E07ECB006F69D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE17DAD124E07ECA006F69D6 /* TrackoveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE17DAE624E07ECB006F69D6 /* Build configuration list for PBXNativeTarget "TrackoveryApp" */;
+			buildPhases = (
+				BE17DACE24E07ECA006F69D6 /* Sources */,
+				BE17DACF24E07ECA006F69D6 /* Frameworks */,
+				BE17DAD024E07ECA006F69D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackoveryApp;
+			productName = TrackoveryApp;
+			productReference = BE17DAD224E07ECA006F69D6 /* TrackoveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE17DACA24E07ECA006F69D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bochkarov Valentyn";
+				TargetAttributes = {
+					BE17DAD124E07ECA006F69D6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BE17DACD24E07ECA006F69D6 /* Build configuration list for PBXProject "TrackoveryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE17DAC924E07ECA006F69D6;
+			productRefGroup = BE17DAD324E07ECA006F69D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE17DAD124E07ECA006F69D6 /* TrackoveryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE17DAD024E07ECA006F69D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE17DAE224E07ECB006F69D6 /* LaunchScreen.storyboard in Resources */,
+				BE17DADF24E07ECB006F69D6 /* Preview Assets.xcassets in Resources */,
+				BE17DADC24E07ECB006F69D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE17DACE24E07ECA006F69D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE17DAD624E07ECA006F69D6 /* AppDelegate.swift in Sources */,
+				BE17DAD824E07ECA006F69D6 /* SceneDelegate.swift in Sources */,
+				BE17DADA24E07ECA006F69D6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE17DAE124E07ECB006F69D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE17DAE424E07ECB006F69D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE17DAE524E07ECB006F69D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE17DAE724E07ECB006F69D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackoveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VGASMDNUX4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrackoveryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = valentinindigo.TrackoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE17DAE824E07ECB006F69D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackoveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VGASMDNUX4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrackoveryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = valentinindigo.TrackoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE17DACD24E07ECA006F69D6 /* Build configuration list for PBXProject "TrackoveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE17DAE424E07ECB006F69D6 /* Debug */,
+				BE17DAE524E07ECB006F69D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE17DAE624E07ECB006F69D6 /* Build configuration list for PBXNativeTarget "TrackoveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE17DAE724E07ECB006F69D6 /* Debug */,
+				BE17DAE824E07ECB006F69D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE17DACA24E07ECA006F69D6 /* Project object */;
+}
