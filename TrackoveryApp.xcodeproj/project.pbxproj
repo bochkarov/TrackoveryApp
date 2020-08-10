@@ -14,6 +14,7 @@
 		BE17DADF24E07ECB006F69D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17DADE24E07ECB006F69D6 /* Preview Assets.xcassets */; };
 		BE17DAE224E07ECB006F69D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */; };
 		BE17DAEA24E083BF006F69D6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17DAE924E083BF006F69D6 /* PlayerView.swift */; };
+		BE60427F24E1C66100A04528 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60427E24E1C66100A04528 /* PlaylistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BE17DAE124E07ECB006F69D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE17DAE324E07ECB006F69D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE17DAE924E083BF006F69D6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BE60427E24E1C66100A04528 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BE17DAD724E07ECA006F69D6 /* SceneDelegate.swift */,
 				BE17DAD924E07ECA006F69D6 /* ContentView.swift */,
 				BE17DAE924E083BF006F69D6 /* PlayerView.swift */,
+				BE60427E24E1C66100A04528 /* PlaylistView.swift */,
 				BE17DADB24E07ECB006F69D6 /* Assets.xcassets */,
 				BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */,
 				BE17DAE324E07ECB006F69D6 /* Info.plist */,
@@ -153,6 +156,7 @@
 				BE17DAD824E07ECA006F69D6 /* SceneDelegate.swift in Sources */,
 				BE17DADA24E07ECA006F69D6 /* ContentView.swift in Sources */,
 				BE17DAEA24E083BF006F69D6 /* PlayerView.swift in Sources */,
+				BE60427F24E1C66100A04528 /* PlaylistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
