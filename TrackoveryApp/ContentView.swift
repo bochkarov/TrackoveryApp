@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct ContentView: View {
     @State private var selection = 0
@@ -32,6 +33,13 @@ struct ContentView: View {
         }
             
         .accentColor(.pink)
+        .onAppear() {
+            SKCloudServiceController.requestAuthorization { (status) in
+                if status == .authorized {
+                    print(AppleMusicAPI().fetchStorefrontID())
+                }
+            }
+        }
     }
 }
 
