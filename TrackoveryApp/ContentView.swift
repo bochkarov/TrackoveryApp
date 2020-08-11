@@ -25,11 +25,12 @@ struct ContentView: View {
                 .tag(1)
                 .tabItem {
                     VStack {
-                        Image(systemName: "magnifyingglass")
-                        Text("Search")
+                        Image(systemName: "music.note.list")
+                        Text("Playlist")
                     }
                 }
         }
+            
         .accentColor(.pink)
     }
 }

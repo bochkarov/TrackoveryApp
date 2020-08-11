@@ -14,6 +14,9 @@
 		BE17DADF24E07ECB006F69D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE17DADE24E07ECB006F69D6 /* Preview Assets.xcassets */; };
 		BE17DAE224E07ECB006F69D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */; };
 		BE17DAEA24E083BF006F69D6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17DAE924E083BF006F69D6 /* PlayerView.swift */; };
+		BE529E4A24E3013D0006478C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE529E4924E3013D0006478C /* SwiftyJSON.swift */; };
+		BE529E4C24E301730006478C /* AppleMusicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE529E4B24E301730006478C /* AppleMusicAPI.swift */; };
+		BE529E4E24E3018C0006478C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE529E4D24E3018C0006478C /* Song.swift */; };
 		BE60427F24E1C66100A04528 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60427E24E1C66100A04528 /* PlaylistView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		BE17DAE124E07ECB006F69D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE17DAE324E07ECB006F69D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE17DAE924E083BF006F69D6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BE529E4924E3013D0006478C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BE529E4B24E301730006478C /* AppleMusicAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicAPI.swift; sourceTree = "<group>"; };
+		BE529E4D24E3018C0006478C /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BE60427E24E1C66100A04528 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,10 +69,13 @@
 				BE17DAD524E07ECA006F69D6 /* AppDelegate.swift */,
 				BE17DAD724E07ECA006F69D6 /* SceneDelegate.swift */,
 				BE17DAD924E07ECA006F69D6 /* ContentView.swift */,
+				BE529E4B24E301730006478C /* AppleMusicAPI.swift */,
+				BE529E4D24E3018C0006478C /* Song.swift */,
 				BE17DAE924E083BF006F69D6 /* PlayerView.swift */,
 				BE60427E24E1C66100A04528 /* PlaylistView.swift */,
 				BE17DADB24E07ECB006F69D6 /* Assets.xcassets */,
 				BE17DAE024E07ECB006F69D6 /* LaunchScreen.storyboard */,
+				BE529E4924E3013D0006478C /* SwiftyJSON.swift */,
 				BE17DAE324E07ECB006F69D6 /* Info.plist */,
 				BE17DADD24E07ECB006F69D6 /* Preview Content */,
 			);
@@ -154,7 +163,10 @@
 			files = (
 				BE17DAD624E07ECA006F69D6 /* AppDelegate.swift in Sources */,
 				BE17DAD824E07ECA006F69D6 /* SceneDelegate.swift in Sources */,
+				BE529E4C24E301730006478C /* AppleMusicAPI.swift in Sources */,
 				BE17DADA24E07ECA006F69D6 /* ContentView.swift in Sources */,
+				BE529E4E24E3018C0006478C /* Song.swift in Sources */,
+				BE529E4A24E3013D0006478C /* SwiftyJSON.swift in Sources */,
 				BE17DAEA24E083BF006F69D6 /* PlayerView.swift in Sources */,
 				BE60427F24E1C66100A04528 /* PlaylistView.swift in Sources */,
 			);

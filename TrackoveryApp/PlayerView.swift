@@ -11,10 +11,10 @@ import SwiftUI
 struct PlayerView: View {
     var body: some View {
         GeometryReader { geometry in
-            VStack(spacing: 24) {
+            VStack(spacing: 16) {
                 Image(systemName: "a.square")
                     .resizable()
-                    .frame(width: geometry.size.width - 48, height: geometry.size.width - 48)
+                    .frame(width: geometry.size.width - 56, height: geometry.size.width - 56)
                     .cornerRadius(20)
                     .shadow(radius: 10)
                 
@@ -66,11 +66,11 @@ struct PlayerView: View {
                     }
                 }
                 Button(action: {
-                    print("Skip")
+                    print("Add")
                 }) {
                     ZStack {
                         Circle()
-                            .frame(width: 100, height: 100)
+                            .frame(width: 80, height: 80)
                             .accentColor(.green)
                             .shadow(radius: 10)
                         Image(systemName: "plus")
