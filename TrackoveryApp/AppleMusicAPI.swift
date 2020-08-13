@@ -56,7 +56,7 @@ class AppleMusicAPI {
         let lock = DispatchSemaphore(value: 0)
         var songs = [Song]()
         
-        let musicURL = URL(string: "https://api.music.apple.com/v1/me/recommendations?type=playlists")!
+        let musicURL = URL(string: "https://api.music.apple.com/v1/me/recommendations?type=albums")!
         var musicRequest = URLRequest(url: musicURL)
         musicRequest.httpMethod = "GET"
         musicRequest.addValue("Bearer \(developerToken)", forHTTPHeaderField: "Authorization")
